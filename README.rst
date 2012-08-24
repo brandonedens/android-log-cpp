@@ -27,3 +27,12 @@ execute use the standard cmake paradigm such as::
   cmake ~/path/to/android-log
   make
   ./src/android-log
+
+
+Hacking
+=======
+
+This software follows the Google C++ coding standard with the exception that
+methods utilize Java style camel case syntax where the first letter in the
+leading word in the method name is downcased. Currently C style functions are
+using underscore_separated_style, continuing with this style is debatable.
